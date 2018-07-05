@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/fm_fraglayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </FrameLayout>
+
+    
+    <LinearLayout
+        android:id="@+id/ll_layout"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+
+        >
+
+        <TextView
+            android:id="@+id/tv_home"
+            style="@style/textView"
+            android:drawableTop="@drawable/home_selector"
+            android:text="home"
+            />
+
+        <TextView
+            android:id="@+id/tv_location"
+            style="@style/textView"
+            android:drawableTop="@drawable/location_selector"
+            android:text="location"
+            />
+
+        <TextView
+            android:id="@+id/tv_like"
+            style="@style/textView"
+            android:drawableTop="@drawable/like_selector"
+            android:text="like"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_person"
+            style="@style/textView"
+            android:drawableTop="@drawable/parson_selector"
+            android:text="person"
+            />
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">bottomLayout</string>
+
+    <string name="kiwi_fruit">猕猴桃</string>
+    <string name="watermemon">西瓜</string>
+    <string name="orange">橙子</string>
+    <string name="banana">香蕉</string>
+</resources>

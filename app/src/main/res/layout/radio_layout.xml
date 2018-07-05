@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.xkfeng.bottomlayout.RadioActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:id="@+id/fm_fraglayout"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content">
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_above="@id/rg_layout"
+            android:background="#a7a7a7"
+            />
+        <RadioGroup
+            android:id="@+id/rg_layout"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:background="#8000"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            >
+            <RadioButton
+
+                android:id="@+id/rb_orange"
+                style="@style/radioButton"
+                android:text="@string/orange"
+                android:drawableTop="@drawable/parson_selector"
+                android:checked="true"
+
+                />
+            <RadioButton
+                android:id="@+id/rb_watermemon"
+                style="@style/radioButton"
+                android:drawableTop="@drawable/like_selector"
+                android:text="@string/watermemon"
+                />
+
+            <RadioButton
+
+                android:id="@+id/rb_kiwi"
+                style="@style/radioButton"
+                android:text="@string/kiwi_fruit"
+                android:drawableTop="@drawable/home_selector"
+                />
+            <RadioButton
+
+                android:id="@+id/rb_banana"
+                style="@style/radioButton"
+                android:text="@string/banana"
+                android:drawableTop="@drawable/location_selector"
+                />
+
+
+
+        </RadioGroup>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
